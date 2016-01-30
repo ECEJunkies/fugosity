@@ -1,0 +1,17 @@
+#
+# <<<Status>>>
+#
+
+#---------------------------------------------------------------------------------------------------------------------------------------------------
+Workflow Diagram for tempiture sensor
+
+Initilize gpio pins for input
+ |
+ ----->Driver for serial communication (kernal driver i2c)
+	|
+	----->Read in the char of data use function for interpreting code (get_temp_)
+		   |
+		   ------>Higher level program
+#---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
